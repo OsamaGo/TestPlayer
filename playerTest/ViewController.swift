@@ -8,18 +8,23 @@
 
 import UIKit
 
+
+
+
 class ViewController: UIViewController {
 
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        
+        SoundPlayer.shared.PlaySound(SoudName: "ButtonTouchSound", SoundType: ".wav")
+        SoundPlayer.shared.PlaySound(SoudName: "taptap", SoundType: ".wav")
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
+    
+    
+    
+    
+    
 
 }
 

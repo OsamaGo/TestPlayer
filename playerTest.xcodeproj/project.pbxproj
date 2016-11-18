@@ -12,6 +12,9 @@
 		4A54E38D1DDF58D8006B95FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E38B1DDF58D8006B95FB /* Main.storyboard */; };
 		4A54E38F1DDF58D8006B95FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E38E1DDF58D8006B95FB /* Assets.xcassets */; };
 		4A54E3921DDF58D8006B95FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E3901DDF58D8006B95FB /* LaunchScreen.storyboard */; };
+		4A54E39A1DDF597E006B95FB /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A54E3991DDF597E006B95FB /* SoundPlayer.swift */; };
+		4A54E39C1DDF5A63006B95FB /* ButtonTouchSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E39B1DDF5A63006B95FB /* ButtonTouchSound.wav */; };
+		4A54E39E1DDF5A6B006B95FB /* taptap.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4A54E39D1DDF5A6B006B95FB /* taptap.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		4A54E38E1DDF58D8006B95FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A54E3911DDF58D8006B95FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A54E3931DDF58D8006B95FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A54E3991DDF597E006B95FB /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		4A54E39B1DDF5A63006B95FB /* ButtonTouchSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ButtonTouchSound.wav; sourceTree = "<group>"; };
+		4A54E39D1DDF5A6B006B95FB /* taptap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = taptap.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				4A54E3871DDF58D8006B95FB /* AppDelegate.swift */,
 				4A54E3891DDF58D8006B95FB /* ViewController.swift */,
+				4A54E3991DDF597E006B95FB /* SoundPlayer.swift */,
 				4A54E38B1DDF58D8006B95FB /* Main.storyboard */,
 				4A54E38E1DDF58D8006B95FB /* Assets.xcassets */,
 				4A54E3901DDF58D8006B95FB /* LaunchScreen.storyboard */,
 				4A54E3931DDF58D8006B95FB /* Info.plist */,
+				4A54E39B1DDF5A63006B95FB /* ButtonTouchSound.wav */,
+				4A54E39D1DDF5A6B006B95FB /* taptap.wav */,
 			);
 			path = playerTest;
 			sourceTree = "<group>";
@@ -124,9 +133,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A54E39C1DDF5A63006B95FB /* ButtonTouchSound.wav in Resources */,
 				4A54E3921DDF58D8006B95FB /* LaunchScreen.storyboard in Resources */,
 				4A54E38F1DDF58D8006B95FB /* Assets.xcassets in Resources */,
 				4A54E38D1DDF58D8006B95FB /* Main.storyboard in Resources */,
+				4A54E39E1DDF5A6B006B95FB /* taptap.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A54E38A1DDF58D8006B95FB /* ViewController.swift in Sources */,
+				4A54E39A1DDF597E006B95FB /* SoundPlayer.swift in Sources */,
 				4A54E3881DDF58D8006B95FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
